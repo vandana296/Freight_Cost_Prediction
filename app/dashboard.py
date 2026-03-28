@@ -4,11 +4,19 @@ import pandas as pd
 import numpy as np
 import plotly.express as px
 import joblib
+
+import sys
+import os
+
+# Fix import path
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+sys.path.insert(0, ROOT_DIR)
 #from src.feature_engineering import haversine
 
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 
 
 # ---- Title ----

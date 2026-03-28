@@ -35,3 +35,8 @@ This project builds a complete ML pipeline to estimate freight cost based on pro
 ---
 
 ## 📁 Project Structure
+
+## 📓 Exploratory Data Analysis
+
+Detailed EDA is available here:
+👉 notebooks/EDA_Freight_Analysis.ipynb
